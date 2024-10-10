@@ -1,0 +1,26 @@
+.background {
+  background-image: url("../assets/images/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.gridBox:nth-child(3),
+.gridBox:nth-child(6) {
+  background-color: rgb(220, 220, 220);
+}
+
+.gridBox:nth-child(2),
+.gridBox:nth-child(5),
+.gridBox:nth-child(8) {
+  background-color: rgba(86, 84, 84, 0.287);
+}
+
+.gridBox:first-child::after {
+  content: "";
+}

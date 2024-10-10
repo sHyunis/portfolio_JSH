@@ -1,0 +1,8 @@
+.headerBackground {
+  background-image: url("../assets/images/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.border {
+  border-right: 2px solid #efefef;
+}
