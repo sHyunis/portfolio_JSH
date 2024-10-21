@@ -10,7 +10,8 @@ import Figma from "@/assets/images/Figma.png";
 import Slack from "@/assets/images/slack.png";
 import Discord from "@/assets/images/Discord.png";
 import Vercel from "@/assets/images/Vercel.png";
-import Github from "@/assets/images/github.png";
+import Github from "@/assets/images/Github.png";
+import Python from "@/assets/images/Python.png";
 const SkillPage = () => {
   return (
     <div
@@ -40,13 +41,16 @@ const SkillPage = () => {
           className={`${styles.gridBox}  text-white p-4 text-[2rem] flex justify-center items-center gap-4`}
         >
           <Image src={Figma} width={100} height={100} alt="Figma" />
-          <Image src={Github} width={80} height={80} alt="Github" />
+          <Image src={Github} width={100} height={100} alt="Github" />
         </div>
         <div
-          className={`${styles.gridBox}  text-white p-4 text-[2rem] flex justify-center items-center gap-4`}
+          className={`${styles.gridBox}  text-white p-4 text-[2rem] flex flex-col justify-center items-center gap-4`}
         >
-          <Image src={Discord} width={100} height={100} alt="Discord" />
-          <Image src={Slack} width={80} height={80} alt="Slack" />
+          <Image src={Discord} width={80} height={80} alt="Discord" />
+          <Image src={Slack} width={60} height={60} alt="Slack" />
+          <p className="bg-zinc-500 p-2 rounded font-main tracking-widest text-black">
+            Notion
+          </p>
         </div>
         <div
           className={`${styles.gridBox}   p-4 text-[2rem] flex justify-center items-center gap-4`}
@@ -54,17 +58,19 @@ const SkillPage = () => {
           <Image src={Vercel} width={100} height={100} alt="Vercel" />
         </div>
         <div
-          className={`${styles.gridBox}  font-extrabold text-[2.5rem] font-main flex flex-col  justify-center items-center text-center tracking-widest gap-3`}
+          className={`${styles.gridBox}  font-extrabold text-[2rem] font-main flex flex-col  justify-center items-center text-center tracking-widest gap-3`}
         >
           <p className="bg-pink p-2 rounded">Zustand</p>
           <p className=" bg-lightGray p-2 rounded">TanstackQuery</p>
           <p className="bg-blue-200 p-2 rounded">TailwindCSS</p>
+          <p className="bg-purple-200 p-2 rounded">styledComponent</p>
         </div>
         <div
-          className={`${styles.gridBox}  font-extrabold text-[2.5rem] font-main flex flex-col  justify-center items-center text-center tracking-widest gap-3`}
+          className={`${styles.gridBox}  font-extrabold text-[2rem] font-main flex flex-col  justify-center items-center text-center tracking-widest gap-3`}
         >
           <p className="bg-green-600 p-2 rounded">Supabase</p>
           <p className="bg-red-300 p-2 rounded">Firebase</p>
+          <Image src={Python} width={70} height={70} alt="Python" />
         </div>
       </div>
     </div>
