@@ -9,18 +9,22 @@
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
 }
-
+.gridBox:first-child,
 .gridBox:nth-child(3),
 .gridBox:nth-child(6) {
-  background-color: rgb(220, 220, 220);
+  background-color: rgb(139, 139, 139);
 }
 
 .gridBox:nth-child(2),
-.gridBox:nth-child(5),
 .gridBox:nth-child(8) {
-  background-color: rgba(86, 84, 84, 0.287);
+  background-color: rgba(130, 130, 130, 0.287);
 }
 
+.gridBox:nth-child(4),
+.gridBox:nth-child(5),
+.gridBox:nth-child(7) {
+  background-color: rgb(26, 26, 26);
+}
 .gridBox:first-child::after {
   content: "";
 }

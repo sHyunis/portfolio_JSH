@@ -24,10 +24,10 @@ const AboutPage = () => {
                 </span>
                 입니다 <br />
                 끊임없는 학습과 성장으로
-                <br /> 문제를 해결하며, 책임감을 가지고
-                <br /> 가치를
+                <br /> 문제를 해결하며, 꾸준함과 책임감을 바탕으로
+                <br />
                 <span className="font-extrabold text-3xl text-pink">
-                  &nbsp; 함께 하고싶은 개발자&nbsp;
+                  함께 하고싶은 개발자&nbsp;
                 </span>
                 가 되겠습니다.
               </p>
