@@ -1,15 +1,8 @@
 import Image from "next/image";
-import React from "react";
-import profile from "@/assets/images/profile.png";
-import styles from "@/styles/about.module.css";
-import github from "@/assets/images/github_loco_icon.svg";
-import velog from "@/assets/images/velog_logo_icon_.svg";
 import Link from "next/link";
 const AboutPage = () => {
   return (
-    <div
-      className={`h-[100vh] min-h-screen flex items-start bg-black ${styles.background}`}
-    >
+    <div className="h-[100vh] min-h-screen flex items-start bg-black bg-grayBg">
       <div className="flex w-[90%] mx-auto gap-40 items-center justify-center">
         <div className="w-[95%] h-[100vh] flex bg-color rounded justify-around items-center  relative">
           <div>
@@ -29,7 +22,7 @@ const AboutPage = () => {
                 <span className="font-extrabold text-3xl text-pink">
                   함께 하고싶은 개발자&nbsp;
                 </span>
-                가 되겠습니다.
+                입니다.
               </p>
 
               <p className="font-main p-8 font-extrabold text-5xl ml-16 tracking-wider text-white ">
@@ -47,19 +40,34 @@ const AboutPage = () => {
                 <div className="bg-white  w-[150px] p-2 rounded mx-auto flex justify-around">
                   <Link href="https://github.com/sHyunis" target="_blank">
                     <div>
-                      <Image src={github} alt="github" width={50} height={50} />
+                      <Image
+                        src="/imgs/github_loco_icon.svg"
+                        alt="github"
+                        width={50}
+                        height={50}
+                      />
                     </div>
                   </Link>
                   <Link href="https://shyunis.github.io/" target="_blank">
                     <div>
-                      <Image src={velog} alt="velog" width={50} height={50} />
+                      <Image
+                        src="/imgs/velog_logo_icon_.svg"
+                        alt="velog"
+                        width={50}
+                        height={50}
+                      />
                     </div>
                   </Link>
                 </div>
               </div>
             </div>
           </div>
-          <Image src={profile} alt="profile" width={300} height={50} />
+          <Image
+            src="/imgs/profile.png"
+            alt="profile"
+            width={300}
+            height={50}
+          />
         </div>
       </div>
     </div>

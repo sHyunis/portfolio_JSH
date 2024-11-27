@@ -1,12 +1,11 @@
-// pages/index.jsx
-import React from "react";
-import styles from "@/styles/home.module.css";
+import Image from "next/image";
 const HomePage = () => {
   return (
     <div>
-      <div className={`flex pb-12 ${styles.background}`}>
-        <div className={`bg-lightGray p-12" ${styles.mainBanner}`}></div>
-        <p className="font-main text-3xl tracking-wider">
+      <div className="flex flex-col justify-center items-center pb-12 bg-grayBg h-[100vh] relative ">
+        <div className="w-full h-[150px] relative bg-lightGray ">
+        <Image src="/imgs/mainBanner.png" alt="mainBanner" fill className="object-cover"/></div>
+        <p className="font-main text-4xl tracking-wider">
           PORTFOLIO BY SO HYUN
         </p>
       </div>

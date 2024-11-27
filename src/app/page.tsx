@@ -4,7 +4,6 @@ import AboutPage from "./about/page";
 import HomePage from "./home/page";
 import SkillPage from "./skill/page";
 import ProjectPage from "./project/page";
-import ContactPage from "./contact/page";
 import gsap from "gsap";
 
 const Home = () => {
@@ -26,9 +25,6 @@ const Home = () => {
       </div>
       <div className="page">
         <ProjectPage />
-      </div>
-      <div className="page">
-        <ContactPage />
       </div>
     </div>
   );

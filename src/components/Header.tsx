@@ -1,17 +1,16 @@
-import React from "react";
 import Link from "next/link";
-import styles from "../styles/header.module.css";
+
 const Menu = [
   { href: "/about", page: "About" },
   { href: "/skill", page: "Skill" },
   { href: "/project", page: "Project" },
-  { href: "/contact", page: "Contact" },
+ 
 ];
 
 const Header = () => {
   return (
     <header
-      className={`w-[200px] h-screen fixed top-0 left-0 flex flex-col justify-between ${styles.border} ${styles.headerBackground}`}
+      className='w-[200px] h-screen fixed top-0 left-0 flex flex-col justify-between border border-solid border-l-0 border-t-0 border-b-0 border-white border-2 bg-grayBg '
     >
       <Link href="/">
         <h1 className="text-center  font-logo font-bold  text-2xl text-foreground ">

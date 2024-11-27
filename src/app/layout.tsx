@@ -7,17 +7,17 @@ import Sidebar from "@/components/Sidebar";
 import Header from "@/components/Header";
 
 const logo = localFont({
-  src: "../public/fonts/Noxlock-4nWDB.otf",
+  src: "../../public/fonts/Noxlock-4nWDB.otf",
   variable: "--font-logo",
 });
 
 const koMain = localFont({
-  src: "../public/fonts/SCDream3.otf",
+  src: "../../public/fonts/SCDream3.otf",
   variable: "--font-koLogo",
 });
 
 const main = localFont({
-  src: "../public/fonts/Morganite-ExtraBold.ttf",
+  src: "../../public/fonts/Morganite-ExtraBold.ttf",
   variable: "--font-main",
 });
 
