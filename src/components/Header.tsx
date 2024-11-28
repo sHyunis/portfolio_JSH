@@ -31,7 +31,7 @@ const Header: React.FC<HeaderProps> = ({
 
   return (
     <header className="w-[200px] h-screen fixed top-0 left-0 flex flex-col border border-solid border-l-0 border-t-0 border-b-0 border-white border-2 bg-grayBg ">
-      <h1 className="text-center font-logo font-bold text-2xl text-foreground mt-4 ">
+      <h1 className="w-full text-center font-logo font-bold text-2xl text-foreground mt-4 ">
         JSH
       </h1>
       <nav className="absolute top-1/2 left-0 w-full transform -translate-y-1/2">

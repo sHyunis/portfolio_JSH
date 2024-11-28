@@ -73,10 +73,10 @@ const WhoamIProject = () => {
             <tbody>
               {ProjectContent.map((menu, idx) => (
                 <tr className="gap-4" key={idx}>
-                  <th className="text-left text-black font-bold w-[150px] text-2xl py-2">
+                  <th className="text-left text-black font-bold w-[150px] text-xl py-2">
                     {menu.title}
                   </th>
-                  <td className="text-2xl font-extrabold">
+                  <td className="text-xl font-extrabold">
                     {menu.content.map((item, idx) => (
                       <p
                         key={idx}
