@@ -95,14 +95,14 @@ const PoketifyProject = () => {
             <Image
               src="/imgs/PoketifyPlaylist.png"
               alt="PoketifyPlaylist"
-              width={500}
+              width={400}
               height={400}
             />
 
             <Image
               src="/imgs/PoketifyMainpage.png"
               alt="PoketifyMainpage"
-              width={500}
+              width={400}
               height={400}
             />
           </div>

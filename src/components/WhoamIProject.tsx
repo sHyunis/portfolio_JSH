@@ -94,14 +94,14 @@ const WhoamIProject = () => {
             <Image
               src="/imgs/WhoamITestpage.png"
               alt="WhoamITestpage"
-              width={500}
+              width={400}
               height={400}
             />
 
             <Image
               src="/imgs/WhoamITestResultPage.png"
               alt="WhoamITestResultPage"
-              width={500}
+              width={400}
               height={400}
             />
           </div>
