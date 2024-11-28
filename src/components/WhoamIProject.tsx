@@ -64,7 +64,7 @@ const WhoamIProject = () => {
               height={50}
             />
           </div>
-          <p className="text-lightGray text-3xl">
+          <p className="text-lightGray text-[20px]">
             | MBTI테스트로 나를 알아보고 타인과 공유하는 사이트
           </p>
         </div>
@@ -73,14 +73,14 @@ const WhoamIProject = () => {
             <tbody>
               {ProjectContent.map((menu, idx) => (
                 <tr className="gap-4" key={idx}>
-                  <th className="text-left text-black font-bold w-[150px] text-xl py-2">
+                  <th className="text-left text-black font-bold w-[150px] text-[18px] py-2">
                     {menu.title}
                   </th>
-                  <td className="text-xl font-extrabold">
+                  <td className="text-[16px]] font-extrabold">
                     {menu.content.map((item, idx) => (
                       <p
                         key={idx}
-                        className="whitespace-pre-wrap break-words py-2"
+                        className="whitespace-pre-wrap break-words py-1"
                       >
                         {item}
                       </p>

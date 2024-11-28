@@ -64,7 +64,7 @@ const PoketifyProject = () => {
               height={50}
             />
           </div>
-          <p className="text-lightGray text-3xl">
+          <p className="text-lightGray text-[16px]">
             | 플레이리스트를 한번에 청취, 추천, 소통이 가능한 음악 커뮤니티
             사이트
           </p>
@@ -74,14 +74,14 @@ const PoketifyProject = () => {
             <tbody>
               {ProjectContent.map((menu, idx) => (
                 <tr className="gap-4" key={idx}>
-                  <th className="text-left text-black font-bold w-[150px] text-xl py-2">
+                  <th className="text-left text-black font-bold w-[150px] text-xl py-1">
                     {menu.title}
                   </th>
-                  <td className="text-xl font-extrabold">
+                  <td className="text-[16px] font-extrabold">
                     {menu.content.map((item, idx) => (
                       <p
                         key={idx}
-                        className="whitespace-pre-wrap break-words py-2"
+                        className="whitespace-pre-wrap break-words py-1"
                       >
                         {item}
                       </p>

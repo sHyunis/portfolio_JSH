@@ -75,14 +75,14 @@ const DreamCardProject = () => {
             <tbody>
               {ProjectContent.map((menu, idx) => (
                 <tr className="gap-4" key={idx}>
-                  <th className="text-left text-black font-bold w-[150px] text-xl py-2">
+                  <th className="text-left text-black font-bold w-[150px] text-[20px] py-1.5">
                     {menu.title}
                   </th>
-                  <td className="text-xl font-extrabold">
+                  <td className="text-[16px] font-extrabold">
                     {menu.content.map((item, idx) => (
                       <p
                         key={idx}
-                        className="whitespace-pre-wrap break-words py-2"
+                        className="whitespace-pre-wrap break-words py-1"
                       >
                         {item}
                       </p>

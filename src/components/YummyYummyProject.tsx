@@ -53,17 +53,17 @@ const YummyYummyProject = () => {
       <div className="w-[90%] h-[100%] bg-darkGray p-8 ">
         <div className="flex items-center gap-4">
           <div className="flex gap-4 items-center">
-            <h1 className="text-white text-5xl  font-extrabold">
+            <h1 className="text-white text-[28px]  font-extrabold">
               Yummy Yummy!
             </h1>
             <Image
               src="/imgs/YummyYummyLogo.jpg"
               alt="YummyYummyLogo"
-              width={100}
+              width={60}
               height={50}
             />
           </div>
-          <p className="text-lightGray text-3xl">
+          <p className="text-lightGray text-[16px]">
             | 유저들이 공유한 요리 레시피 기록을 한 눈에 볼 수 있는 뉴스피드
             사이트
           </p>
