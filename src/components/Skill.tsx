@@ -81,25 +81,25 @@ const Skill = () => {
           <div className="flex flex-wrap w-full justify-center gap-3 items-center   font-extrabold  bg-blackGray ">
             <Image
               src="/imgs/zustand.jpeg"
-              width={130}
+              width={100}
               height={100}
               alt="zustand"
             />
             <Image
               src="/imgs/tanstackQuery.png"
-              width={160}
+              width={100}
               height={100}
               alt="tanstackQuery"
             />
             <Image
               src="/imgs/tailwindcss.jpg"
-              width={160}
+              width={100}
               height={100}
               alt="tailwindcss"
             />
             <Image
               src="/imgs/styledComponents.jpeg"
-              width={130}
+              width={100}
               height={100}
               alt="styledComponents"
             />
