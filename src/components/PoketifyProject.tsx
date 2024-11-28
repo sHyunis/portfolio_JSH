@@ -71,23 +71,25 @@ const PoketifyProject = () => {
         </div>
         <div className="bg-lightGray mt-8 pl-8 pr-8 h-[90%] relative flex items-center gap-4">
           <table>
-            {ProjectContent.map((menu) => (
-              <tr className="gap-4">
-                <th className="text-left text-black font-bold w-[150px] text-2xl py-2">
-                  {menu.title}
-                </th>
-                <td className="text-2xl font-extrabold">
-                  {menu.content.map((item, idx) => (
-                    <p
-                      key={idx}
-                      className="whitespace-pre-wrap break-words py-2"
-                    >
-                      {item}
-                    </p>
-                  ))}
-                </td>
-              </tr>
-            ))}
+            <tbody>
+              {ProjectContent.map((menu, idx) => (
+                <tr className="gap-4" key={idx}>
+                  <th className="text-left text-black font-bold w-[150px] text-2xl py-2">
+                    {menu.title}
+                  </th>
+                  <td className="text-2xl font-extrabold">
+                    {menu.content.map((item, idx) => (
+                      <p
+                        key={idx}
+                        className="whitespace-pre-wrap break-words py-2"
+                      >
+                        {item}
+                      </p>
+                    ))}
+                  </td>
+                </tr>
+              ))}
+            </tbody>
           </table>
           <div className="flex flex-col  gap-16 justify-center items-center">
             <Image

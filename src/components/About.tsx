@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-const AboutPage = () => {
+const About = () => {
   return (
     <div className="h-[100vh] min-h-screen flex items-start bg-black bg-grayBg">
       <div className="flex w-[90%] mx-auto gap-40 items-center justify-center">
@@ -74,4 +74,4 @@ const AboutPage = () => {
   );
 };
 
-export default AboutPage;
+export default About;

@@ -1,33 +1,39 @@
 "use client";
-import React, { useEffect } from "react";
-import AboutPage from "./about/page";
-import HomePage from "./home/page";
-import SkillPage from "./skill/page";
-import ProjectPage from "./project/page";
-import gsap from "gsap";
+import React, { useRef, useState, useEffect } from "react";
+import About from "@/components/About";
+import Header from "@/components/Header";
+import Home from "@/components/Home";
+import Project from "@/components/Project";
+import Skill from "@/components/Skill";
 
-const Home = () => {
-  useEffect(() => {
-    gsap.from(".page", {
-      y: 50,
-      duration: 1,
-      stagger: 0.2,
-    });
-  }, []);
+const MainPage = () => {
+  const homeRef = useRef<HTMLDivElement>(null);
+  const aboutRef = useRef<HTMLDivElement>(null);
+  const skillRef = useRef<HTMLDivElement>(null);
+  const projectRef = useRef<HTMLDivElement>(null);
+
   return (
     <div className="home">
-      <HomePage />
-      <div className="page">
-        <AboutPage />
+      <div ref={homeRef}>
+        <Home />
       </div>
-      <div className="page">
-        <SkillPage />
+      <div ref={aboutRef}>
+        <About />
       </div>
-      <div className="page">
-        <ProjectPage />
+      <div ref={skillRef}>
+        <Skill />
       </div>
+      <div ref={projectRef}>
+        <Project />
+      </div>
+      <Header
+        homeRef={homeRef}
+        aboutRef={aboutRef}
+        skillRef={skillRef}
+        projectRef={projectRef}
+      />
     </div>
   );
 };
 
-export default Home;
+export default MainPage;

@@ -1,9 +1,7 @@
-// RootLayout.jsx
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "@/styles/globals.css";
 import "@/styles/reset.css";
-import Sidebar from "@/components/Sidebar";
 import Header from "@/components/Header";
 
 const logo = localFont({
@@ -36,8 +34,6 @@ export default function RootLayout({
       <body
         className={`${logo.variable} ${main.variable} ${koMain.variable}  antialiased  flex flex-col`}
       >
-        <Header />
-        <Sidebar />
         <main className="overflow-y-scroll">{children}</main>
       </body>
     </html>
