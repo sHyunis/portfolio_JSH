@@ -100,7 +100,7 @@ const PoketifyProject = () => {
             />
 
             <Image
-              src="/imgs/PoketifyMainpage.png"
+              src="/imgs/PoketifyMain.png"
               alt="PoketifyMainpage"
               width={400}
               height={400}

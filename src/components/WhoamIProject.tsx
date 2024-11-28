@@ -92,7 +92,7 @@ const WhoamIProject = () => {
           </table>
           <div className="flex flex-col  gap-16 justify-center items-center">
             <Image
-              src="/imgs/WhoamITestpage.png"
+              src="/imgs/WhoamITest.png"
               alt="WhoamITestpage"
               width={400}
               height={400}

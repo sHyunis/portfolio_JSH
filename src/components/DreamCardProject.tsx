@@ -101,7 +101,7 @@ const DreamCardProject = () => {
             />
             <div className="flex gap-7">
               <Image
-                src="/imgs/dreamCardMyPage.png"
+                src="/imgs/dreamCardMy.png"
                 alt="dreamCardMyPage"
                 width={120}
                 height={120}
