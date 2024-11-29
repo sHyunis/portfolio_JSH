@@ -4,22 +4,14 @@
 
 :root {
   --color: #1b1b1b;
-  --background: #1c1c1c;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --color: #1b1b1b;
-    --background: #f3f3f3;
-    --lightGray : rgb(139, 139, 139);
-    --gray: #636363;
-    --mediumGray : rgba(130, 130, 130, 0.287);
-    --darkgray: #202020;
-    --blackGray:#121212;
-    --pink: #ffd3f1;
-    --lightGray: #efefef;
-    
-  }
+  --background: #f3f3f3;
+  --lightGray: rgb(139, 139, 139);
+  --gray: #636363;
+  --mediumGray: rgba(130, 130, 130, 0.287);
+  --darkgray: #202020;
+  --blackGray: #121212;
+  --pink: #ffd3f1;
+  --lightGray: #efefef;
 }
 
 body {
